@@ -14,7 +14,7 @@ test_script:
   -node --version
   -npm --version
   # run test_script
-  - nom test
+  -npm test
 
 # Don't acctually build
 build: off
