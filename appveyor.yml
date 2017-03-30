@@ -1,6 +1,6 @@
 environment:
   matrix:
-  -nodejs_version: "6"
+  - nodejs_version: "6"
 
 install:
   #get lates stable version of Node.js or io.js
@@ -11,10 +11,10 @@ install:
 # Post-install test scripts
 test_script:
   #output usefull info for debugging
-  -node --version
-  -npm --version
+  - node --version
+  - npm --version
   # run test_script
-  -npm test
+  - npm test
 
 # Don't acctually build
 build: off
