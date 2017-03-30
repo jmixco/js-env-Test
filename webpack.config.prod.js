@@ -10,8 +10,7 @@ export default {
   noInfo: false,
   entry: {
     vendor: path.resolve(__dirname, 'src/vendor'),
-    main: path.resolve(__dirname, 'src/index'),
-    style: path.resolve(__dirname, 'src/style.css')
+    main: path.resolve(__dirname, 'src/index')
   },
   target: 'web',
   output: {
